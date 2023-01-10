@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Personalização do menu */
+
+.menu{
+    background-color: rgb(116, 5, 5);
+    width: 250px;
+    height: 100vh;
+    display: inline;
+    float: left;
+    border: 7px solid black;
+}
+
+.menu:hover{
+    border: 7px solid gold;
+    transition: 3.5s;
+}
+
+.imagem{
+    height: auto;
+    width: 200px;
+    position: absolute;
+    bottom: 50vh;
+    left: 22px;
+    border-radius: 50%;
+    border: 7px solid;
+}
+
+.imagem:hover{
+    border: 7px solid gold;
+    transition: 3.5s;
+}
+
+.menu-navegação{
+    text-align: center;
+    top: 48vh;
+    left: 50px;
+    position: sticky;
+}
+
+.menu-navegação li{
+    padding: 50px;
+}
+
+.menu-navegação a{
+    text-decoration: none;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.menu-navegação a:hover{
+    text-decoration: solid underline;
+}
+
+/* Personalização Sobre */
+
+.conteudo-sobre{
+    position: absolute;
+    top: 30%;
+    left: 275px;
+    transform: translate(0, -50%);
+}
+
+.conteudo-sobre h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.sobrenome{
+    color: red;
+}
+
+.email{
+    color: red;
+}
+
+.conteudo-sobre h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.icones a{
+    text-decoration: none;
+    color: rgb(116, 5, 5);
+}
+
+.txtsobre{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.icones li{
+    display: inline;
+}
+
+.logo{
+    height: 80px;
+    width: auto;
+    padding-right: 10px;
+    margin-top: 60vh;
+    margin-left: 10%;
+}
+
+/* Personalização conhecimentos */
+
+.conhecimentos{
+    position: absolute;
+    top: 40%;
+    left: 350px;
+    transform: translate(0, -50%);
+}
+
+.conhecimentos ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}    
+
+.conhecimentos li{
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.linguagens img{
+    height: 80px;
+    width: auto;
+    margin-top: 65vh;
+    padding-left: 70px;
+}
+
+/* Personalização objetivos */
+
+.objetivoslist{
+    position: fixed;
+    top: 50%;
+    left: 397px;
+    transform: translate(0, -50%);
+}
+
+.objetivoslist li{
+    padding-bottom: 15px;
+    font-size: 25px;
+    list-style: disc;
+    list-style-type: "\1F3AF";
+    font-weight: bolder;
+}
