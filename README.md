@@ -4,4 +4,4 @@ Curriculum digital aplicado com HTML e CSS
 
 Full Stack web developer - Growdev
 
-Para visualizar o projeto: 
+Para visualizar o projeto: <a href="https://matt-luz.github.io/Atividade-Final-de-Modulo-Curriculum-Digital-FrontEnd01/index.html">clique aqui!</a>
