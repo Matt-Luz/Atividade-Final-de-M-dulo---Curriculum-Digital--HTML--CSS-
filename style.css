@@ -38,13 +38,15 @@
 
 .menu-navegação{
     text-align: center;
-    top: 52vh;
+    top: 47vh;
     left: -5px;
     position: absolute;
 }
 
 .menu-navegação li{
-    padding: 50px;
+    /* padding: 15px; */
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .menu-navegação a{
@@ -149,8 +151,15 @@
 
 .objetivoslist li{
     padding-bottom: 15px;
-    font-size: 25px;
+    font-size: 22px;
     list-style: disc;
     list-style-type: "\1F3AF";
     font-weight: bolder;
+}
+
+#separadorObjetivos{
+    font-size: 32px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: underline;
 }
