@@ -44,9 +44,9 @@
 }
 
 .menu-navegação li{
-    /* padding: 15px; */
+    padding-top: 50px;
     margin-left: 50px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .menu-navegação a{
